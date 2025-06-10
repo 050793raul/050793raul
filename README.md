@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @050793raul
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Clona tu repositorio raul si no lo tienes localmente:
+git clone https://github.com/050793raul/raul.git
+cd raul
 
-<!---
-050793raul/050793raul is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Descarga el README.md del otro repo (puedes hacerlo manualmente o con wget/curl si es público):
+# Ejemplo usando curl:
+curl -O https://raw.githubusercontent.com/050793raul/050793raul/main/README.md
+
+# Añade, commitea y sube los cambios:
+git add README.md
+git commit -m "Actualiza README.md desde 050793raul/050793raul"
+git push
