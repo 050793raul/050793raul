@@ -1,0 +1,4 @@
+steps:
+- uses: "authzed/action-testserver@v3"
+  with:
+    version: "latest"
