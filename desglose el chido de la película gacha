@@ -1,0 +1,34 @@
+# El Chido de la Película Gacha
+
+Este es el repositorio principal del ecosistema Gacha. Aquí se orquesta, protege y optimiza la comunicación entre los diferentes módulos y servicios.
+
+## Características
+
+- **Ahorro de datos:** Implementa caché y lógica inteligente de reintentos.
+- **Adaptabilidad:** Fácil integración con nuevos servicios y plataformas.
+- **Seguridad:** Centraliza la autenticación y protege el tráfico de todo el sistema.
+
+## Estructura
+
+- `/src/adapters`: Conexión a otros proyectos/repos.
+- `/src/security`: Funciones de seguridad y validación.
+- `/src/cache`: Ahorro de datos y optimización de tráfico.
+
+## Conectando otros repositorios
+
+Este núcleo se comunica con:
+- [gacha-inventario](https://github.com/usuario/gacha-inventario)
+- [gacha-batallas](https://github.com/usuario/gacha-batallas)
+- [gacha-usuarios](https://github.com/usuario/gacha-usuarios)
+
+## Cómo empezar
+
+1. Clona este repo.
+2. Instala las dependencias.
+3. Configura los endpoints de los otros módulos en `/src/adapters/`.
+4. Corre el proyecto y disfruta de la magia centralizada.
+
+---
+
+¿Listo para crear el repo?  
+Dímelo y te doy el comando exacto para inicializarlo y subirlo a GitHub, o te ayudo a configurar el README, estructura, o el primer archivo de código según el lenguaje que elijas. ¿Qué sigue?
