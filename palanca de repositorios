@@ -1,0 +1,11 @@
+el-chido-gacha/
+├── src/
+│   ├── index.js (o main.py, main.cs, según el lenguaje)
+│   ├── adapters/         # Adaptadores para otros servicios/repos
+│   ├── security/         # Lógica de seguridad y autenticación
+│   └── cache/            # Módulos para ahorro de datos
+├── docs/
+│   └── arquitectura.md
+├── .gitignore
+├── README.md
+└── package.json (o requirements.txt, etc.)
