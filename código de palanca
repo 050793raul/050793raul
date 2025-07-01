@@ -1,0 +1,10 @@
+// src/services/otherRepoService.js
+const axios = require('axios');
+
+async function fetchData() {
+  // Llama a la API de otro repositorio
+  const response = await axios.get('https://api.otroservicio.com/data');
+  return response.data;
+}
+
+module.exports = { fetchData };
