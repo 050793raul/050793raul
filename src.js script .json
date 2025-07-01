@@ -1,0 +1,10 @@
+// src/index.js
+
+console.log('🚀 El Chido de la Película Gacha está en línea.');
+
+function main() {
+    // Aquí se podrá agregar la lógica de conexión, seguridad, etc.
+    console.log('Core iniciado. Listo para orquestar tus servicios Gacha.');
+}
+
+main();
